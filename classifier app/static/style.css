@@ -1,0 +1,83 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for content */
+.container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Heading styles */
+h1 {
+    color: #2a9d8f;
+    margin-bottom: 20px;
+}
+
+/* Styles for the image upload section */
+.image-upload {
+    margin-top: 20px;
+}
+
+.image-upload label {
+    display: inline-block;
+    cursor: pointer;
+    border: 2px dashed #2a9d8f;
+    border-radius: 12px;
+    padding: 30px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.image-upload label:hover {
+    background-color: #e0f4f1;
+    border-color: #21867a;
+}
+
+.image-upload img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Hide file input */
+input[type="file"] {
+    display: none;
+}
+
+/* Button styles */
+button {
+    background-color: #2a9d8f;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #21867a;
+}
+
+/* Result text styles */
+p#result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #333;
+}
