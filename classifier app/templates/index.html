@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Classifier</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #333;
+        }
+
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: #444;
+            margin-bottom: 20px;
+        }
+
+        .image-upload {
+            margin-top: 20px;
+        }
+
+        .image-upload label {
+            display: block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .image-upload label:hover {
+            background-color: #45a049;
+        }
+
+        input[type="file"] {
+            display: none;
+        }
+
+        .preview-container {
+            margin-top: 20px;
+            display: none;
+            text-align: center;
+        }
+
+        .preview-container img {
+            max-width: 100%;
+            max-height: 300px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        #result {
+            margin-top: 20px;
+            font-size: 1.1rem;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .loading {
+            font-style: italic;
+            color: #f39c12;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Image Classifier...(Title)</h1>
+       
+        
+        <!-- Image upload section -->
+        <div class="image-upload">
+            <label for="file-input">
+                Choose Image
+            </label>
+            <input id="file-input" type="file" accept="image/*" onchange="previewFile()"/>
+        </div>
+        
+        <!-- Image preview section -->
+        <div class="preview-container" id="image-preview-container">
+            <img id="image-preview" src="" alt="Preview Image" />
+        </div>
+        
+        <!-- Classification button -->
+        <button id="classify-button" onclick="classifyImage()">Classify Image</button>
+
+        <!-- Result display -->
+        <p id="result"></p>
+    </div>
+
+    <script>
+        // Preview the uploaded image
+        function previewFile() {
+            const fileInput = document.getElementById('file-input');
+            const file = fileInput.files[0];
+            const previewImage = document.getElementById('image-preview');
+            const previewContainer = document.getElementById('image-preview-container');
+
+            if (file) {
+                const reader = new FileReader();
+
+                // Display the image
+                reader.onload = function(event) {
+                    previewImage.src = event.target.result;
+                    previewContainer.style.display = 'block'; 
+                };
+
+                reader.readAsDataURL(file);
+            } else {
+                previewContainer.style.display = 'none'; 
+            }
+        }
+
+        // Handle image classification
+        function classifyImage() {
+            document.getElementById('result').innerHTML = '<span class="loading">Processing...</span>';
+
+            const fileInput = document.getElementById("file-input");
+            const file = fileInput.files[0];
+
+            if (file) {
+                let formData = new FormData();
+                formData.append('file', file);
+
+                // Send the image to the backend for classification
+                fetch('/classify', {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(response => response.json())
+                .then(data => {
+                    // Handle valid data and display the result
+                    if (data.label && typeof data.confidence === 'number' && !isNaN(data.confidence)) {
+                        const confidenceFormatted = data.confidence.toFixed(2);
+                        document.getElementById('result').innerHTML = `
+                            <strong>Prediction:</strong> ${data.label} <br/>
+                            <strong>Confidence:</strong> ${confidenceFormatted} <br/>
+                        `;
+                    } else {
+                        document.getElementById('result').innerText = 'Error: Invalid data received from server.';
+                    }
+                })
+                .catch(error => {
+                    document.getElementById('result').innerText = 'Error: ' + error.message;
+                });
+            } else {
+                document.getElementById('result').innerText = 'No file selected.';
+            }
+        }
+    </script>
+</body>
+</html>
