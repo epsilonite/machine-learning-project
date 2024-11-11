@@ -1,10 +1,10 @@
 ### machine-learning-project
 # Mammography Mass Classifier
 
+### Be, Ritu, Tatyana, Caitlin
 
 ![nn_art](https://github.com/epsilonite/machine-learning-project/blob/main/images/nn_art_2.jpg)
 
-Be, Ritu, Tatyana, Caitlin
 
 ---
 
@@ -28,10 +28,15 @@ This project aims to explore the potential of machine learning in improving brea
 
 ---
 
+## Other Links
+
 [Google Drive](https://drive.google.com/drive/folders/1JP11rqUjeKADC7EEGXHP2PvhYDgKx2Rf?usp=drive_link)
+
+[Project Slides](https://docs.google.com/presentation/d/1bDKMw3RxJN8R6Rw_AKEVLY7Ms4kcZ9B1iXscR8kd3bc/edit#slide=id.g313daa6870c_0_30)
 
 ---
 
+## Table of Contents
 
 [Data](https://github.com/epsilonite/machine-learning-project#data)
 
