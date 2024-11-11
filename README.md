@@ -1,5 +1,30 @@
 ### machine-learning-project
 # Mammography Mass Classifier
+
+
+[Data]
+
+[Processing]
+
+[Models]
+
+[Results]
+
+[App]
+
+[Resources]
+
+## Data
+
+## Processing
+
+## Models
+
+## Results
+
+## App
+
+
 ## Resources
 ### CBIS-DDSM: Curated Breast Imaging Subset of Digital Database for Screening Mammography
 **CBIS-DDSM dataset:**<br>
