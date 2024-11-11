@@ -4,6 +4,8 @@
 
 ![nn_art](https://github.com/epsilonite/machine-learning-project/blob/main/images/nn_art_2.jpg)
 
+Be, Ritu, Tatyana, Caitlin
+
 ---
 
 Project Description:
@@ -37,6 +39,14 @@ Question: How can we leverage machine learning in breast cancer diagnostics?
 ---
 
 ## Data
+
+We used data from the CBIS-DDSM in the Cancer Imaging Archive. The CBIS-DDSM (Curated Breast Imaging Subset of DDSM) is an updated and standardized version of the Digital Database for Screening Mammography (DDSM). The original DDSM consists of 2,620 scanned mammography studies, including normal, benign, and malignant cases, all with verified pathology information.
+
+[CBOS-DDSM](https://www.cancerimagingarchive.net/collection/cbis-ddsm/)
+
+Example of Image: 
+
+[mammography](https://github.com/epsilonite/machine-learning-project/blob/main/code/data/cbis-ddsm-png/Mass-Training_P_00001_LEFT_CC.png)
 
 ## Processing
 
