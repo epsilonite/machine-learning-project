@@ -1,83 +1,90 @@
-/* General body styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Oswald','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #fff0f0;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     height: 100vh;
     margin: 0;
+    color: #4d3e3e;
 }
 
-/* Container for content */
 .container {
-    background-color: #ffffff;
-    border-radius: 12px;
+    background-color: white;
     padding: 40px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    max-width: 500px;
-    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     text-align: center;
+    width: 100%;
+    max-width: 400px;
 }
 
-/* Heading styles */
 h1 {
-    color: #8d8888;
+    font-size: 2rem;
+    color: #4d3e3e;
     margin-bottom: 20px;
 }
 
-/* Styles for the image upload section */
 .image-upload {
     margin-top: 20px;
 }
 
 .image-upload label {
-    display: inline-block;
-    cursor: pointer;
-    border: 2px dashed #8d8888;
-    border-radius: 12px;
-    padding: 30px;
-    transition: background-color 0.3s, border-color 0.3s;
-}
-
-.image-upload label:hover {
-    background-color: #fff0f0;
-    border-color: #6f6b6b;
-}
-
-.image-upload img {
-    width: 50px;
-    height: 50px;
     display: block;
-    margin: 0 auto;
-}
-
-/* Hide file input */
-input[type="file"] {
-    display: none;
-}
-
-/* Button styles */
-button {
-    background-color: #8d8888;
-    color: #ffffff;
-    padding: 10px 20px;
-    border: none;
+    background-color: #cc868f;
+    color: white;
+    padding: 15px 30px;
     border-radius: 5px;
-    margin-top: 20px;
-    font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
-button:hover {
-    background-color: #6f6b6b;
+.image-upload label:hover {
+    background-color: #995a64;
 }
 
-/* Result text styles */
-p#result {
+input[type="file"] {
+    display: none;
+}
+
+.preview-container {
     margin-top: 20px;
-    font-size: 1.2rem;
+    display: none;
+    text-align: center;
+}
+
+.preview-container img {
+    max-width: 100%;
+    max-height: 300px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #cc868f;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    font-family: 'Oswald','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button:hover {
+    background-color: #995a64;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.1rem;
     color: #4d3e3e;
+    line-height: 1.5;
+}
+
+.loading {
+    font-style: italic;
+    color: #bf9000;
 }
