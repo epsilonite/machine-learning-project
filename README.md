@@ -2,7 +2,7 @@
 # Mammography Mass Classifier
 
 
-![nn_art](https://github.com/epsilonite/machine-learning-project/blob/main/images/neural_network_art.jpg)
+![nn_art](https://github.com/epsilonite/machine-learning-project/blob/main/images/nn_art_2.jpg)
 
 ---
 
@@ -16,7 +16,7 @@ Question: How can we leverage machine learning in breast cancer diagnostics?
 
 ---
 
-[Google Drive](link here)
+[Google Drive](https://drive.google.com/drive/folders/1JP11rqUjeKADC7EEGXHP2PvhYDgKx2Rf?usp=drive_link)
 
 ---
 
@@ -58,6 +58,14 @@ CNNs are specialized neural networks optimized for image data. They perform conv
 In our project, we evaluated various CNN architectures to classify mammography images, aiming to find the most accurate model for detecting abnormalities.
 
 ### Models We Used
+
+* EfficientNet: Balances accuracy and resource efficiency, performing well on radiology tasks with fewer parameters - Ideal for scenarios requiring computational efficiency, but may not capture as intricate details as ResNet in complex medical images.
+* ResNet50: Best overall for radiology due to its ability to learn intricate details in medical images with deeper networks.
+* VGG: While effective for general image classification, its simpler architecture might not capture the nuanced features in complex medical images as well as ResNet. 
+* MobileNetV2/V3: Designed for low computational power, suitable for situations where fast inference is needed but might not achieve the highest accuracy on complex medical images. 
+* Inception: Can perform well on radiology images, especially with its ability to handle different image scales, but may not be as widely preferred as ResNet in medical imaging applications. 
+* DenseNet: Though capable of learning complex features, might not be as widely used in radiology as ResNet due to its higher computational cost.
+
 
 ## Results
 
