@@ -6,6 +6,20 @@
 
 ---
 
+Project Description:
+
+
+Question: How can we leverage machine learning in breast cancer diagnostics? 
+
+
+
+
+---
+
+[Google Drive](link here)
+
+---
+
 
 [Data](https://github.com/epsilonite/machine-learning-project#data)
 
@@ -27,6 +41,23 @@
 ## Processing
 
 ## Models
+
+### CNN Overview and Project Approach
+
+CNNs are specialized neural networks optimized for image data. They perform convolutional operations to extract features from input images, using:
+
+* Convolutional Layers: Apply filters (kernels) to scan the input image, detecting features like edges and textures, and generating feature maps.
+* Pooling Layers: Reduce the spatial dimensions of feature maps, commonly using max pooling, to decrease the number of parameters and computational load while preserving significant information.
+* Flatten Layers: Convert multi-dimensional feature maps into a one-dimensional vector for input into fully connected layers.
+* Fully Connected (Dense) Layers: Integrate extracted features and perform the final classification.
+* Dropout Layers: Randomly deactivate neurons during training to prevent overfitting and enhance model generalization.
+* Batch Normalization Layers: Standardize the inputs to each layer to maintain training stability and accelerate convergence.
+
+![cnn](https://github.com/epsilonite/machine-learning-project/blob/main/images/cnn_model_structure.png)
+
+In our project, we evaluated various CNN architectures to classify mammography images, aiming to find the most accurate model for detecting abnormalities.
+
+### Models We Used
 
 ## Results
 
