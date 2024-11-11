@@ -2,17 +2,25 @@
 # Mammography Mass Classifier
 
 
-[Data]
+![nn_art](https://github.com/epsilonite/machine-learning-project/blob/main/images/neural_network_art.jpg)
 
-[Processing]
+---
 
-[Models]
 
-[Results]
+[Data](https://github.com/epsilonite/machine-learning-project#data)
 
-[App]
+[Processing](https://github.com/epsilonite/machine-learning-project#processing)
 
-[Resources]
+[Models](https://github.com/epsilonite/machine-learning-project#models)
+
+[Results](https://github.com/epsilonite/machine-learning-project#results)
+
+[App](https://github.com/epsilonite/machine-learning-project?tab=readme-ov-file#app)
+
+[Resources](https://github.com/epsilonite/machine-learning-project?tab=readme-ov-file#resources)
+
+
+---
 
 ## Data
 
@@ -23,6 +31,24 @@
 ## Results
 
 ## App
+
+We built a web application using Flask, Java, HTML, and CSS, which allows users to upload images and have them classified using a pre-trained ResNet Deep Learning model, which was our most accurate model. 
+
+Features
+* Image Upload: Users can upload images through an intuitive web interface.
+* Real-Time Classification: Uploaded images are processed and classified by the ResNet model, providing immediate feedback on the predicted class and confidence score.
+* Responsive Design: The frontend is built using HTML and styled with CSS for a clean, user-friendly experience.
+* Backend Processing: Flask handles the server-side logic, routing, and interaction with the machine learning model. Java is utilized for specific backend operations that require enhanced performance.
+
+How It Works
+* Upload: Users upload an image via the web interface.
+* Processing: The image is sent to the Flask backend, where it undergoes preprocessing such as resizing and normalization.
+* Classification: The processed image is fed to the ResNet model, which outputs a predicted class label and a confidence score.
+* Result Display: The classification result is displayed on the web page, allowing users to see the outcome instantly.
+
+
+![app_1](https://github.com/epsilonite/machine-learning-project/blob/main/images/app_1.png)
+![app_2](https://github.com/epsilonite/machine-learning-project/blob/main/images/app_2.png)
 
 
 ## Resources
