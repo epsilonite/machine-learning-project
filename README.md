@@ -46,7 +46,7 @@ We used data from the CBIS-DDSM in the Cancer Imaging Archive. The CBIS-DDSM (Cu
 
 Example of Image: 
 
-[mammography](https://github.com/epsilonite/machine-learning-project/blob/main/code/data/cbis-ddsm-png/Mass-Training_P_00001_LEFT_CC.png)
+![mammography](https://github.com/epsilonite/machine-learning-project/blob/main/code/data/cbis-ddsm-png/Mass-Training_P_00001_LEFT_CC.png)
 
 ## Processing
 
