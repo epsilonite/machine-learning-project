@@ -34,22 +34,29 @@
 
 We built a web application using Flask, Java, HTML, and CSS, which allows users to upload images and have them classified using a pre-trained ResNet Deep Learning model, which was our most accurate model. 
 
-Features
-* Image Upload: Users can upload images through an intuitive web interface.
-* Real-Time Classification: Uploaded images are processed and classified by the ResNet model, providing immediate feedback on the predicted class and confidence score.
-* Responsive Design: The frontend is built using HTML and styled with CSS for a clean, user-friendly experience.
-* Backend Processing: Flask handles the server-side logic, routing, and interaction with the machine learning model. Java is utilized for specific backend operations that require enhanced performance.
+### Features
+* Image Upload: Intuitive web interface for uploading images.
+* Real-Time Classification: Immediate results with class label and confidence score.
+* Responsive Design: Clean and user-friendly interface.
+* Backend Processing: Flask handles server logic and model interaction, with Java for specific backend tasks.
 
-How It Works
-* Upload: Users upload an image via the web interface.
-* Processing: The image is sent to the Flask backend, where it undergoes preprocessing such as resizing and normalization.
-* Classification: The processed image is fed to the ResNet model, which outputs a predicted class label and a confidence score.
-* Result Display: The classification result is displayed on the web page, allowing users to see the outcome instantly.
+### Technology Stack
+* Flask/Python: Core web framework for handling requests and routing.
+* Java: Used for backend performance tasks.
+* HTML & CSS: Build and style the web interface.
+* ResNet Model: Pre-trained for accurate image classification.
+
+### How It Works
+* Upload: Users upload an image.
+* Processing: Image is preprocessed and sent to the model.
+* Classification: Model returns a class label and confidence score.
 
 
-![app_1](https://github.com/epsilonite/machine-learning-project/blob/main/images/app_1.png)
+
+![app_1](https://github.com/epsilonite/machine-learning-project/blob/main/images/app_1.png) <br>
 ![app_2](https://github.com/epsilonite/machine-learning-project/blob/main/images/app_2.png)
 
+---
 
 ## Resources
 ### CBIS-DDSM: Curated Breast Imaging Subset of Digital Database for Screening Mammography
