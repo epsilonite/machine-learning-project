@@ -8,13 +8,23 @@ Be, Ritu, Tatyana, Caitlin
 
 ---
 
-Project Description:
+## Project Overview:
 
+### Motivation: 
 
-Question: How can we leverage machine learning in breast cancer diagnostics? 
+Breast cancer is one of the most common cancers worldwide and the leading cause of cancer-related deaths among women, with over 2.29 million new cases and 666,000 deaths in 2022 alone. While survival rates are high in developed countries — over 90% in places like the U.S. — rates drop significantly in low-income countries, where access to early detection and treatment is often limited.
 
+The disparities in breast cancer outcomes highlight the need for more accessible diagnostic tools, especially in underserved areas. Machine learning has the potential to make a big impact here, offering scalable, efficient, and accurate solutions where healthcare infrastructure is lacking. By using image classification models, we can improve early detection and outcomes, ultimately contributing to global efforts to reduce breast cancer mortality. This approach could help bridge the gap between regions with advanced medical systems and those without, improving access to life-saving diagnoses.
 
+### Question: 
 
+How can we leverage machine learning in breast cancer diagnostics? 
+
+### Description: 
+
+This project aims to explore the potential of machine learning in improving breast cancer diagnosis, addressing both the need for efficiency and global access to quality care. We used several machine learning models, like ResNet50, EfficientNet, and DenseNet, to analyze mammography images from the CBIS-DDSM dataset. By comparing these models, we aimed to identify the best approach for accurate diagnosis while considering computational efficiency.
+
+[Dashboard for Breast Cancer Statistics](https://public.tableau.com/app/profile/rituparna.nandi/viz/BreastCancer_17313655373100/BreastCancerFacts?publish=yes)
 
 ---
 
@@ -101,8 +111,6 @@ We built a web application using Flask, Java, HTML, and CSS, which allows users 
 * Classification: Model returns a class label and confidence score.
 
 
-
-![app_1](https://github.com/epsilonite/machine-learning-project/blob/main/images/app_1.png) <br>
 ![app_2](https://github.com/epsilonite/machine-learning-project/blob/main/images/app_2.png)
 
 ---
