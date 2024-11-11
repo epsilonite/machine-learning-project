@@ -9,7 +9,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Load model and class labels
-model = tf.keras.models.load_model('mobilenetv2.h5')
+model = tf.keras.models.load_model('restnet.h5')
 class_labels = ['Benign', 'Benign Without Callback', 'Malignant']
 
 def preprocess_image(img):
