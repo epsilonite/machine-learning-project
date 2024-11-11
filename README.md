@@ -30,5 +30,12 @@ CNN Mammography: Cancer Detection Full Image: Cubic SVM: NasNet + MobileNetV2
 Mudeng, Vicky, Jin-woo Jeong and Se-woon Choe. (2022). Simply fine-tuned deep learning-based classification for breast cancer with mammograms. Computers, Materials & Continua, 73(3), 49077. https://doi.org/10.32604/cmc.2022.031046
 CNN Mammography: Cancer Detection Full Image
 
-Geras, Krzysztof J., Stacey Wolfson, S. Gene Kim, Eric Kim, Linda Moy, and Kyunghyun Cho. (2017). High-Resolution Breast Cancer Screening with Multi-View Deep Convolutional Neural Networks. arXiv preprint, arXiv:1703.07047. https://doi.org/10.48550/arXiv.1703.07047.
+Geras, Krzysztof J., Stacey Wolfson, Gene Kim, Eric Kim, Linda Moy, and Kyunghyun Cho. (2017). High-Resolution Breast Cancer Screening with Multi-View Deep Convolutional Neural Networks. arXiv preprint, arXiv:1703.07047. https://doi.org/10.48550/arXiv.1703.07047.
 CNN Mammography: BI-RADS Classification
+
+### CNN Resources:
+Weirich, Alfred. (2020, July 4). Finetuning TensorFlow/Keras Networks - Basics using MobileNetV2 as an Example. Medium. https://medium.com/@alfred.weirich/finetuning-tensorflow-keras-networks-basics-using-mobilenetv2-as-an-example-8274859dc232
+
+Chollet, François, & others. (2023). Transfer learning & fine-tuning. Keras. https://keras.io/guides/transfer_learning/
+
+Chollet, François, & others. (2023). Keras Applications. Keras. https://keras.io/api/applications/
