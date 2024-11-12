@@ -18,7 +18,7 @@ The disparities in breast cancer outcomes highlight the need for more accessible
 
 ### Question: 
 
-How can we leverage machine learning in breast cancer diagnostics? 
+How can we leverage existing machine learning research to improve breast cancer diagnostics?
 
 ### Description: 
 
@@ -68,6 +68,27 @@ Example of Image:
 ---
 
 ## Processing
+
+Data Processing Workflow:
+
+1.) File Hierarchy and Naming: Updated the file hierarchy and renamed files.
+
+2.) DICOM Import: Imported provided DICOM files as NumPy arrays.
+
+3.) Bounding Box Retrieval: Retrieved the pixel boundary box of regions of interest (ROIs) using the mask provided in the dataset.
+
+4.) Padding: Added a 25% padding around the bounding box to ensure additional context around the ROI.
+
+5.) Mammogram Extraction: Extracted mammogram data within the padded bounding box region.
+
+6.) Normalization: Converted the 16-bit grayscale images to float values scaled between 0 and 255.
+
+7.) Export: Saved the processed data as both TFRecord files and .npy files.
+
+![image1]()
+![image2]()
+
+Can update formatting with below to change image size and move to middle of screen etc. 
 
 ---
 
