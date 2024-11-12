@@ -67,7 +67,8 @@ Example of Image:
 </p>
 
 <br>
-<sub> [Back to Table of Contents](https://github.com/epsilonite/machine-learning-project#table-of-contents) </sub>
+<sub><a href="https://github.com/epsilonite/machine-learning-project#table-of-contents">Back to Table of Contents</a></sub>
+
 
 ---
 
