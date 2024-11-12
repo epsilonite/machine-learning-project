@@ -110,21 +110,21 @@ The ResNet50 (Residual Neural Network) model was most accurate, reflecting an ov
 
 * Training and Validation Loss: The training loss progressively decreased to near-zero, with a final value close to 0.0016, demonstrating the model’s effective optimization on the training data. However, the validation loss plateaued around 0.55, showing a good balance without unnecessary complexity in the model. This suggests that the model achieved a good fit on the validation data as well.
 
-<div style="text-align: center;">
-  <img src="https://github.com/epsilonite/machine-learning-project/blob/main/images/resnet_accuracy.png" alt="Alt text" width="300" height="auto">
-</div>
+<p align="center">
+  <img src="https://github.com/epsilonite/machine-learning-project/blob/main/images/resnet_accuracy.png" alt="Alt text" width="400" height="auto">
+</p>
 
 * Precision, Recall, and F1 Score: For classes with larger representation (0 and 2), precision, recall, and F1 scores were high, around 95%. Class 1, with fewer instances, had slightly lower precision and recall at 89%. This lower performance for the minority class reflects its limited data, which may have restricted the model’s ability to generalize as effectively.
 
-<div style="text-align: center;">
-  <img src="https://github.com/epsilonite/machine-learning-project/blob/main/images/resnet_precision.png" alt="Alt text" width="300" height="auto">
-</div>
+<p align="center">
+  <img src="https://github.com/epsilonite/machine-learning-project/blob/main/images/resnet_precision.png" alt="Alt text" width="400" height="auto">
+</p>
 
 Confusion Matrix: The matrix reveals high accuracy across all classes, with classes 0 and 2 being classified correctly 95% of the time and class 1 at 89%. The high accuracy and recall demonstrate the model’s effective distinction among classes.
 
-<div style="text-align: center;">
-  <img src="https://github.com/epsilonite/machine-learning-project/blob/main/images/resnet_matrix.png" alt="Alt text" width="300" height="auto">
-</div>
+<p align="center">
+  <img src="https://github.com/epsilonite/machine-learning-project/blob/main/images/resnet_matrix.png" alt="Alt text" width="400" height="auto">
+</p>
 
 * Overall Test Performance: With a test accuracy of 94.7% and a test loss of 0.26, the model exhibits strong reliability on new data, maintaining a high level of accuracy across all classes.
 
