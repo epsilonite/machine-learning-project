@@ -33,7 +33,7 @@ This project aims to explore the potential of machine learning in improving brea
 
 [Google Drive](https://drive.google.com/drive/folders/1JP11rqUjeKADC7EEGXHP2PvhYDgKx2Rf?usp=drive_link)
 
-[Project Slides](https://docs.google.com/presentation/d/1bDKMw3RxJN8R6Rw_AKEVLY7Ms4kcZ9B1iXscR8kd3bc/edit#slide=id.g313daa6870c_0_30)
+[Project Slides](https://docs.google.com/presentation/d/1bDKMw3RxJN8R6Rw_AKEVLY7Ms4kcZ9B1iXscR8kd3bc/edit#slide=id.p)
 
 ---
 
