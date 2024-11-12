@@ -122,6 +122,8 @@ In our project, we evaluated various CNN architectures to classify mammography i
 * MobileNetV2/V3: Designed for low computational power, suitable for situations where fast inference is needed but might not achieve the highest accuracy on complex medical images. 
 * Inception: Can perform well on radiology images, especially with its ability to handle different image scales, but may not be as widely preferred as ResNet in medical imaging applications. 
 * DenseNet: Though capable of learning complex features, might not be as widely used in radiology as ResNet due to its higher computational cost.
+* K- NearestNeighbors: Can be useful for identifying patterns and detecting anomalies. However, does not perform as well on radiology images as other models due to high computational costs, dimensionality, and noise sensitivity.
+* Random Forests: A supervised learning method that uses an ensemble of decision trees to improve classification or regression accuracy. Is robust to noise and can identify feature importance. Like KNNs, they do not work well with imbalanced data and require extensive preprocessing.
 
 ResNet50 Model:
 
