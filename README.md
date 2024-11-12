@@ -110,7 +110,7 @@ The ResNet50 (Residual Neural Network) model was most accurate, reflecting an ov
 
 * Training and Validation Loss: The training loss progressively decreased to near-zero, with a final value close to 0.0016, demonstrating the model’s effective optimization on the training data. However, the validation loss plateaued around 0.55, showing a good balance without unnecessary complexity in the model. This suggests that the model achieved a good fit on the validation data as well.
 
-![accuracy](https://github.com/epsilonite/machine-learning-project/blob/main/images/resnet_accuracy.png)
+<img src="https://github.com/epsilonite/machine-learning-project/blob/main/images/resnet_accuracy.png" alt="Alt text" width="300" height="auto">
 
 * Precision, Recall, and F1 Score: For classes with larger representation (0 and 2), precision, recall, and F1 scores were high, around 95%. Class 1, with fewer instances, had slightly lower precision and recall at 89%. This lower performance for the minority class reflects its limited data, which may have restricted the model’s ability to generalize as effectively.
 
