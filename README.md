@@ -67,7 +67,9 @@ Example of Image:
 </p>
 
 <br>
-<sub><a href="https://github.com/epsilonite/machine-learning-project#table-of-contents">Back to Table of Contents</a></sub>
+<p align="right">
+  <a href="https://github.com/epsilonite/machine-learning-project#table-of-contents">Back to Table of Contents</a>
+</p>
 
 
 ---
@@ -96,7 +98,9 @@ Data Processing Workflow:
 Can update formatting with below to change image size and move to middle of screen etc. 
 
 <br>
-<sub> [Back to Table of Contents](https://github.com/epsilonite/machine-learning-project#table-of-contents) </sub>
+<p align="right">
+  <a href="https://github.com/epsilonite/machine-learning-project#table-of-contents">Back to Table of Contents</a>
+</p>
 
 ---
 
@@ -132,7 +136,9 @@ ResNet50 Model:
 ![resnet](https://github.com/epsilonite/machine-learning-project/blob/main/images/resnet.png)
 
 <br>
-<sub>[Back to Table of Contents](https://github.com/epsilonite/machine-learning-project#table-of-contents)</sub>
+<p align="right">
+  <a href="https://github.com/epsilonite/machine-learning-project#table-of-contents">Back to Table of Contents</a>
+</p>
 
 ---
 
@@ -171,7 +177,9 @@ The ResNet50 (Residual Neural Network) model was most accurate, reflecting an ov
 * With a test accuracy of 94.7% and a test loss of 0.26, the model exhibits strong reliability on new data, maintaining a high level of accuracy across all classes.
 
 <br>
-<sub>[Back to Table of Contents](https://github.com/epsilonite/machine-learning-project#table-of-contents)</sub>
+<p align="right">
+  <a href="https://github.com/epsilonite/machine-learning-project#table-of-contents">Back to Table of Contents</a>
+</p>
 
 ---
 
@@ -202,7 +210,9 @@ We built a web application using Flask, Java, HTML, and CSS, which allows users 
 </p>
 
 <br>
-<sub> [Back to Table of Contents](https://github.com/epsilonite/machine-learning-project#table-of-contents) </sub>
+<p align="right">
+  <a href="https://github.com/epsilonite/machine-learning-project#table-of-contents">Back to Table of Contents</a>
+</p>
 
 ---
 
@@ -250,4 +260,6 @@ Chollet, François, & others. (2023). *Keras Applications*. Keras. https://keras
 ChatGPT. (2024). Assistance with programming, debugging and formating. OpenAI.
 
 <br>
-<sub>[Back to Table of Contents](https://github.com/epsilonite/machine-learning-project#table-of-contents)</sub>
+<p align="right">
+  <a href="https://github.com/epsilonite/machine-learning-project#table-of-contents">Back to Table of Contents</a>
+</p>
