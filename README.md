@@ -106,21 +106,27 @@ ResNet50 Model:
 
 The ResNet50 (Residual Neural Network) model was most accurate, reflecting an overall strong performance:
 
-* Training and Validation Accuracy: The model’s training accuracy reached 100%, showing it effectively learned the patterns in the data. The validation accuracy settled around 90%, indicating strong generalization with no major signs of overfitting. Initial fluctuations in validation accuracy were likely addressed by the learning rate adjustments, especially with early stopping and the reduction in learning rate helping to stabilize the performance.
+### Training and Validation Accuracy and Loss
 
-* Training and Validation Loss: The training loss progressively decreased to near-zero, with a final value close to 0.0016, demonstrating the model’s effective optimization on the training data. However, the validation loss plateaued around 0.55, showing a good balance without unnecessary complexity in the model. This suggests that the model achieved a good fit on the validation data as well.
+* The model’s training accuracy reached 100%, showing it effectively learned the patterns in the data. The validation accuracy settled around 90%, indicating strong generalization with no major signs of overfitting. Initial fluctuations in validation accuracy were likely addressed by the learning rate adjustments, especially with early stopping and the reduction in learning rate helping to stabilize the performance.
+
+* The training loss progressively decreased to near-zero, with a final value close to 0.0016, demonstrating the model’s effective optimization on the training data. However, the validation loss plateaued around 0.55, showing a good balance without unnecessary complexity in the model. This suggests that the model achieved a good fit on the validation data as well.
 
 <p align="center">
   <img src="https://github.com/epsilonite/machine-learning-project/blob/main/images/resnet_accuracy.png" alt="Alt text" width="400" height="auto">
 </p>
 
-* Precision, Recall, and F1 Score: For classes with larger representation (0 and 2), precision, recall, and F1 scores were high, around 95%. Class 1, with fewer instances, had slightly lower precision and recall at 89%. This lower performance for the minority class reflects its limited data, which may have restricted the model’s ability to generalize as effectively.
+### Precision, Recall, and F1 Score
+
+* For classes with larger representation (0 and 2), precision, recall, and F1 scores were high, around 95%. Class 1, with fewer instances, had slightly lower precision and recall at 89%. This lower performance for the minority class reflects its limited data, which may have restricted the model’s ability to generalize as effectively.
 
 <p align="center">
   <img src="https://github.com/epsilonite/machine-learning-project/blob/main/images/resnet_precision.png" alt="Alt text" width="400" height="auto">
 </p>
 
-Confusion Matrix: The matrix reveals high accuracy across all classes, with classes 0 and 2 being classified correctly 95% of the time and class 1 at 89%. The high accuracy and recall demonstrate the model’s effective distinction among classes.
+### Confusion Matrix
+
+* The matrix reveals high accuracy across all classes, with classes 0 and 2 being classified correctly 95% of the time and class 1 at 89%. The high accuracy and recall demonstrate the model’s effective distinction among classes.
 
 <p align="center">
   <img src="https://github.com/epsilonite/machine-learning-project/blob/main/images/resnet_matrix.png" alt="Alt text" width="400" height="auto">
@@ -152,7 +158,9 @@ We built a web application using Flask, Java, HTML, and CSS, which allows users 
 * Classification: Model returns a class label and confidence score.
 
 
-![app_2](https://github.com/epsilonite/machine-learning-project/blob/main/images/app_2.png)
+<p align="center">
+  <img src="https://github.com/epsilonite/machine-learning-project/blob/main/images/app_2.png" alt="Alt text" width="400" height="auto">
+</p>
 
 ---
 
