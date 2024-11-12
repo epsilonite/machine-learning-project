@@ -67,7 +67,7 @@ Example of Image:
 </p>
 
 <br>
-<sub>[Back to Table of Contents](https://github.com/epsilonite/machine-learning-project#table-of-contents)</sub>
+<sub> [Back to Table of Contents](https://github.com/epsilonite/machine-learning-project#table-of-contents) </sub>
 
 ---
 
@@ -95,7 +95,7 @@ Data Processing Workflow:
 Can update formatting with below to change image size and move to middle of screen etc. 
 
 <br>
-<sub>[Back to Table of Contents](https://github.com/epsilonite/machine-learning-project#table-of-contents)</sub>
+<sub> [Back to Table of Contents](https://github.com/epsilonite/machine-learning-project#table-of-contents) </sub>
 
 ---
 
@@ -201,7 +201,7 @@ We built a web application using Flask, Java, HTML, and CSS, which allows users 
 </p>
 
 <br>
-<sub>[Back to Table of Contents](https://github.com/epsilonite/machine-learning-project#table-of-contents)</sub>
+<sub> [Back to Table of Contents](https://github.com/epsilonite/machine-learning-project#table-of-contents) </sub>
 
 ---
 
