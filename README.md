@@ -99,7 +99,7 @@ In our project, we evaluated various CNN architectures to classify mammography i
 
 ResNet50 Model:
 
-![resnet](https://github.com/epsilonite/machine-learning-project/blob/main/images/resnet.webp)
+![resnet](https://github.com/epsilonite/machine-learning-project/blob/main/images/resnet.png)
 ---
 
 ## Results
