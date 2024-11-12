@@ -66,7 +66,9 @@ Example of Image:
   <img src="https://github.com/epsilonite/machine-learning-project/blob/main/code/data/cbis-ddsm-png/Mass-Training_P_00001_LEFT_CC.png" alt="Alt text" width="400" height="auto">
 </p>
 
-> [Back to Contents](https://github.com/epsilonite/machine-learning-project#table-of-contents)
+> [Back to Table of Contents](https://github.com/epsilonite/machine-learning-project#table-of-contents)
+<sub>[Back to Table of Contents](https://github.com/epsilonite/machine-learning-project#table-of-contents)</sub>
+
 ---
 
 ## Processing
