@@ -66,7 +66,7 @@ Example of Image:
   <img src="https://github.com/epsilonite/machine-learning-project/blob/main/code/data/cbis-ddsm-png/Mass-Training_P_00001_LEFT_CC.png" alt="Alt text" width="400" height="auto">
 </p>
 
-> [Back to Table of Contents](https://github.com/epsilonite/machine-learning-project#table-of-contents)
+<br>
 <sub>[Back to Table of Contents](https://github.com/epsilonite/machine-learning-project#table-of-contents)</sub>
 
 ---
@@ -93,6 +93,9 @@ Data Processing Workflow:
 ![image2]()
 
 Can update formatting with below to change image size and move to middle of screen etc. 
+
+<br>
+<sub>[Back to Table of Contents](https://github.com/epsilonite/machine-learning-project#table-of-contents)</sub>
 
 ---
 
@@ -126,6 +129,10 @@ In our project, we evaluated various CNN architectures to classify mammography i
 ResNet50 Model:
 
 ![resnet](https://github.com/epsilonite/machine-learning-project/blob/main/images/resnet.png)
+
+<br>
+<sub>[Back to Table of Contents](https://github.com/epsilonite/machine-learning-project#table-of-contents)</sub>
+
 ---
 
 ## Results
@@ -162,6 +169,9 @@ The ResNet50 (Residual Neural Network) model was most accurate, reflecting an ov
 
 * With a test accuracy of 94.7% and a test loss of 0.26, the model exhibits strong reliability on new data, maintaining a high level of accuracy across all classes.
 
+<br>
+<sub>[Back to Table of Contents](https://github.com/epsilonite/machine-learning-project#table-of-contents)</sub>
+
 ---
 
 ## App
@@ -189,6 +199,9 @@ We built a web application using Flask, Java, HTML, and CSS, which allows users 
 <p align="center">
   <img src="https://github.com/epsilonite/machine-learning-project/blob/main/images/app_2.png" alt="Alt text" width="400" height="auto">
 </p>
+
+<br>
+<sub>[Back to Table of Contents](https://github.com/epsilonite/machine-learning-project#table-of-contents)</sub>
 
 ---
 
@@ -234,3 +247,6 @@ Chollet, François, & others. (2023). *Keras Applications*. Keras. https://keras
 
 ### Other Resources:
 ChatGPT. (2024). Assistance with programming, debugging and formating. OpenAI.
+
+<br>
+<sub>[Back to Table of Contents](https://github.com/epsilonite/machine-learning-project#table-of-contents)</sub>
