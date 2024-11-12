@@ -58,7 +58,7 @@ This project aims to explore the potential of machine learning in improving brea
 
 We used data from the CBIS-DDSM in the Cancer Imaging Archive. The CBIS-DDSM (Curated Breast Imaging Subset of DDSM) is an updated and standardized version of the Digital Database for Screening Mammography (DDSM). The original DDSM consists of 2,620 scanned mammography studies, including normal, benign, and malignant cases, all with verified pathology information.
 
-[CBOS-DDSM](https://www.cancerimagingarchive.net/collection/cbis-ddsm/)
+[CBIS-DDSM](https://www.cancerimagingarchive.net/collection/cbis-ddsm/)
 
 Example of Image: 
 
