@@ -2,6 +2,7 @@
 # Mammography Mass Classifier
 
 ### Be, Ritu, Tatyana, Caitlin
+<br>
 
 ![nn_art](https://github.com/epsilonite/machine-learning-project/blob/main/images/nn_art_2.jpg)
 
