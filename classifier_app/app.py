@@ -13,11 +13,12 @@ model = tf.keras.models.load_model('restnet.h5')
 class_labels = ['Benign', 'Benign Without Callback', 'Malignant']
 
 def preprocess_image(img):
-    # Resize and convert to RGB
-    img = img.convert("RGB").resize((224, 224))  
-    # Normalize and add batch dim
-    img_array = np.expand_dims(np.array(img) / 255.0, axis=0)
-    return img_array
+    #img is PIL image
+    img = img.convert('L')
+    img_np = np.array(img)
+    img8bit = (img_np - img_np.min()) * 255.0 / (img_np.max() - img_np.min())
+    img224rgb = tf.image.resize(np.stack([img8bit] * 3, axis=-1), (224, 224)).numpy()
+    return tf.keras.applications.inception_v3.preprocess_input(img224rgb)
 
 @app.route('/classify', methods=['POST'])
 def classify_image():
