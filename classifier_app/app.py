@@ -16,9 +16,11 @@ def preprocess_image(img):
     #img is PIL image
     img = img.convert('L')
     img_np = np.array(img)
+    print(img_np)
     img8bit = (img_np - img_np.min()) * 255.0 / (img_np.max() - img_np.min())
     img224rgb = tf.image.resize(np.stack([img8bit] * 3, axis=-1), (224, 224)).numpy()
-    return tf.keras.applications.inception_v3.preprocess_input(img224rgb)
+    img_tf = tf.keras.applications.inception_v3.preprocess_input(img224rgb)
+    return tf.expand_dims(img_tf, axis=0)
 
 @app.route('/classify', methods=['POST'])
 def classify_image():
