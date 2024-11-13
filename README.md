@@ -45,6 +45,8 @@ This project aims to explore the potential of machine learning in improving brea
 
 [Models](https://github.com/epsilonite/machine-learning-project#models)
 
+[Optimization](https://github.com/epsilonite/machine-learning-project#Optimization)
+
 [Results](https://github.com/epsilonite/machine-learning-project#results)
 
 [App](https://github.com/epsilonite/machine-learning-project?tab=readme-ov-file#app)
@@ -140,6 +142,22 @@ ResNet50 Model:
 <p align="right">
   <a href="https://github.com/epsilonite/machine-learning-project#table-of-contents">Back to Table of Contents</a>
 </p>
+
+---
+
+## Optimization
+
+Below optimizations are done on different models to improve model's performance.
+
+* **Batch Size** - Balances computational efficiency and generalization. A batch size of 16 is used, is a reasonable choice that balances memory usage and computational efficiency.
+* **Data Prefetching** - Increases training efficiency by overlapping data loading and training.
+* **Freezing and Unfreezing Layers** - Utilizes pre-trained knowledge while adapting to new data. Unfreezing only the last 20 layers allowed fine-tuning the model.
+* **Custom Layers for Classification** - Simplifies the model while preserving important features for classification.
+* **Global Average Pooling** - reduces the number of parameters and helps prevent overfitting
+* **Dense Layer** - transforms the learned features from the base model into class probabilities
+* **Early Stopping** - Prevents overfitting by stopping training early if no improvement is observed.
+* **Learning Rate Scheduler** - Optimizes convergence by dynamically adjusting the learning rate.
+* **Epochs** - Ensures sufficient training but avoids overfitting with early stopping.
 
 ---
 
