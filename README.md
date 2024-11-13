@@ -49,6 +49,8 @@ This project aims to explore the potential of machine learning in improving brea
 
 [App](https://github.com/epsilonite/machine-learning-project?tab=readme-ov-file#app)
 
+[Conclusion](https://github.com/epsilonite/machine-learning-project?tab=readme-ov-file#conclusion)
+
 [Resources](https://github.com/epsilonite/machine-learning-project?tab=readme-ov-file#resources)
 
 
@@ -207,6 +209,18 @@ We built a web application using Flask, Java, HTML, and CSS, which allows users 
 <p align="center">
   <img src="https://github.com/epsilonite/machine-learning-project/blob/main/images/app_2.png" alt="Alt text" width="400" height="auto">
 </p>
+
+<br>
+<p align="right">
+  <a href="https://github.com/epsilonite/machine-learning-project#table-of-contents">Back to Table of Contents</a>
+</p>
+
+---
+
+## Conclusion
+
+ResNet was by far the most effective and accurate model due to its ability to learn more intricate details in medical images with deeper networks. It was able to identify subtle differences between classes and maintain consistent accuracy despite the complexity of the data, which is incredible important for medical diagnostics. 
+This is important because early detection saves lives. Machine learning models can identify subtle patterns in mammograms, which can enable earlier, more accurate diagnoses. Additionally, using a CNN model for diagnostics is cost-effective and scalable, where it can handle large volumes of data. By analyzing mammogram data, machine learning models can uncover new insights into breast cancer development, progression, and recurrence, contributing to research and the development of novel treatments. Finally, it can help to bridge the gap in breast cancer diagnostics between regions with advanced medical systems and those without.
 
 <br>
 <p align="right">
