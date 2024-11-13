@@ -163,6 +163,13 @@ Below optimizations are done on different models to improve model's performance.
 
 ## Results
 
+Results from different models are below:
+<br>
+<p align="center">
+  <img width="467" alt="image" src="https://github.com/user-attachments/assets/302a3677-f72c-47ff-b519-eb7fef9c1143">
+</p>
+
+
 The ResNet50 (Residual Neural Network) model was most accurate, reflecting an overall strong performance.
 
 ### Training and Validation Accuracy and Loss
