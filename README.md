@@ -167,7 +167,7 @@ Results from different models are below along with graphical representation:
 <br>
 <p align="center">
   <img width="467" alt="image" src="https://github.com/user-attachments/assets/302a3677-f72c-47ff-b519-eb7fef9c1143">
-  [image](https://github.com/user-attachments/assets/069a875a-c8ed-4dab-bc16-0c2e67241f99)
+  <img width="467" alt="image" src="https://github.com/user-attachments/assets/069a875a-c8ed-4dab-bc16-0c2e67241f99">
 
 </p>
 
