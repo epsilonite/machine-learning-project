@@ -92,10 +92,7 @@ Data Processing Workflow:
 
 7.) Export: Saved the processed data as both TFRecord files and .npy files.
 
-![image1]()
-![image2]()
-
-Can update formatting with below to change image size and move to middle of screen etc. 
+![image processing](https://github.com/epsilonite/machine-learning-project/blob/main/images/image-processing.png)
 
 <br>
 <p align="right">
