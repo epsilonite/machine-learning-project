@@ -14,12 +14,12 @@ class_labels = ['Benign', 'Benign Without Callback', 'Malignant']
 
 def preprocess_image(img):
     # Convert image to grayscale and expand to RGB channels
-    img = img.convert('L')
+    # img = img.convert('L')
     img_np = np.array(img)
     img8bit = (img_np - img_np.min()) * 255.0 / (img_np.max() - img_np.min())
     img224rgb = tf.image.resize(np.stack([img8bit] * 3, axis=-1), (224, 224))
     img224rgb = tf.convert_to_tensor(img224rgb, dtype=tf.float32)
-    return tf.keras.applications.resnet50.preprocess_input(img224rgb)
+    return tf.keras.applications.resnet.preprocess_input(img224rgb)
 
 @app.route('/classify', methods=['POST'])
 def classify_image():
