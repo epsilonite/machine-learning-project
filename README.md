@@ -159,6 +159,11 @@ Below optimizations are done on different models to improve model's performance.
 * **Learning Rate Scheduler** - Optimizes convergence by dynamically adjusting the learning rate.
 * **Epochs** - Ensures sufficient training but avoids overfitting with early stopping.
 
+<br>
+<p align="right">
+  <a href="https://github.com/epsilonite/machine-learning-project#table-of-contents">Back to Table of Contents</a>
+</p>  
+
 ---
 
 ## Results
